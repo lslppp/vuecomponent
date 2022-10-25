@@ -1,0 +1,25 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy":"bash deploy.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "sass": "^1.55.0",
+    "sass-loader": "^10.3.1",
+    "vuepress": "^1.9.7"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "webpack": "^4.46.0"
+  },
+  "description": ""
+}
